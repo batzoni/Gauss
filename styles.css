@@ -29,6 +29,7 @@ h2 {
 /* Header */
 .navbar {
   padding: 1rem;
+  background-color: rgb(201, 235, 241);
 }
 
 .navbar-brand {
@@ -42,11 +43,17 @@ h2 {
 
 /* Banner */
 .hero-section {
-  background-image: url(Diseño\ sin\ título.png);
+  background-image: url('Diseño sin título.png');
+  background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+  height: 60vh;
+  /* o la altura que necesites */
   padding: 3rem 1rem;
   color: skyblue(248, 247, 247);
   text-align: center;
+
+
 }
 
 .btn-primary {
@@ -117,8 +124,9 @@ h2 {
 }
 
 .price {
-  font-weight: 2000;
-  color: blue;
+  font-weight: 700;
+  color: rgb(12, 12, 12);
+  font-size: 2rem;
 }
 
 .pizza-content p {
@@ -146,7 +154,7 @@ h2 {
 /* Feactures */
 .features-section {
   padding: 4rem 1rem;
-  background-color: rgb(174, 225, 246);
+  background-color: rgb(201, 235, 241);
 }
 
 .features-grid {
@@ -196,7 +204,7 @@ h2 {
 
 .nosotros-section {
   padding: 4rem 1rem;
-  background-color: rgb(161, 203, 237);
+  background-color: rgb(201, 235, 241);
 }
 
 .nosotros-grid {
