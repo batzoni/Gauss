@@ -1,385 +1,473 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>INSTITUTO GAUSS</title>
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <!-- Font Awesome para iconos -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
 
     <!-- Incluir en la linea 14 la conexión con el archivo de mis estilos CSS -->
-    <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" href="Diseño sin título.png" type="image/x-icon">
-    <meta name="description"
-        content="Somos el futuro de la educacion, valores lo echo hasta aca y lo potenciamos al futuro.">
-    <meta name="keywords" content="Clases particulares, cursos, oficios, talleres">
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="shortcut icon"
+      href="Diseño sin título.png"
+      type="image/x-icon"
+    />
+    <meta
+      name="description"
+      content="Somos el futuro de la educacion, valores lo echo hasta aca y lo potenciamos al futuro."
+    />
+    <meta
+      name="keywords"
+      content="Clases particulares, cursos, oficios, talleres"
+    />
+  </head>
 
-
-</head>
-
-<body id="top">
+  <body id="top">
     <!-- Header con Bootstrap -->
     <header class="sticky-top bg-white shadow-sm">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container container-narrow">
-                <a class="navbar-brand d-flex align-items-center" href="#">
-                    <img src="Diseño sin título.png" alt="logo gauss" class="rounded-circle me-2">
-                    <span class="fw-bold text-danger">Gauss Centro Integral de Estudios</span>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#top">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#menu">Cursos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#nosotros">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contacto">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container container-narrow">
+          <a class="navbar-brand d-flex align-items-center" href="#">
+            <img
+              src="Diseño sin título.png"
+              alt="logo gauss"
+              class="rounded-circle me-2"
+            />
+            <span class="fw-bold text-danger"
+              >Gauss Centro Integral de Estudios</span
+            >
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#top">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#catalogo">Cursos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#nosotros">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <main>
-        <!-- Hero Section -->
-        <section class="hero-section">
-            <div class="container container-narrow text-center">
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <div class="container container-narrow text-center">
+          <a href="#catalogo" class="btn-primary"></a>
+        </div>
+      </section>
 
-                <a href="#catalogo" class="btn-primary"></a>
-            </div>
-        </section>
+      <!-- Menu Section -->
+      <section id="catalogo" class="catalogo-section">
+        <div class="container container-narrow">
+          <h2 class="section-title">Cursos</h2>
 
-        <!-- Menu Section -->
-        <section id="catalogo" class="catalogo-section">
-            <div class="container container-narrow">
-                <h2 class="section-title">Cursos</h2>
-
-                <div class="pizza-grid">
-                    <!-- Pizza 1 -->
-                    <div class="pizza-card">
-                        <div class="pizza-image">
-                            <img src="Robotica nivel inicial.jpg" alt="Robotica nivel inicial">
-                        </div>
-                        <div class="pizza-content">
-                            <div class="pizza-header">
-                                <h3>Robotica nivel inicial</h3>
-                                <span class="price">$35000</span>
-                            </div>
-                            <p>En este curso aprenderemos lo basico para que puedas introducirte en el mundo de la
-                                robotica</p>
-                            <a href="https://wa.me/+541169550363?text=Hola quiero informacion sobre el curso de robotica"
-                                target="_blank" class="btn-whatsapp">
-                                Pedir por WhatsApp
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- Pizza 2 -->
-                    <div class="pizza-card">
-                        <div class="pizza-image">
-                            <img src="electricidad domestica.png" alt="capacitacion">
-                        </div>
-                        <div class="pizza-content">
-                            <div class="pizza-header">
-                                <h3>Curso de electricidad domestica</h3>
-                                <span class="price">$80000</span>
-                            </div>
-                            <p>tenemos opcional virtual y presencial. Un curso ideal para aprender y tener un salida
-                                laboral rapida</p>
-                            <a href="https://wa.me/+541169550363?text=Hola quiero informacion sobre el curso de Electricidad domestica"
-                                target="_blank" class="btn-whatsapp">
-                                Pedir por WhatsApp
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- Pizza 3 -->
-                    <div class="pizza-card">
-                        <div class="pizza-image">
-                            <img src="autocad.png" alt="cursos">
-                        </div>
-                        <div class="pizza-content">
-                            <div class="pizza-header">
-                                <h3>Cursos de autocad </h3>
-                                <span class="price">$40000</span>
-                            </div>
-                            <p>Aprende a modelar como los mejores, tenemos tres niveles para que seas de los mejores
-                                cadistas</p>
-                            <a href="https://wa.me/+541169550363?text=Hola quiero informacion sobre el curso de Autocad"
-                                target="_blank" class="btn-whatsapp">
-                                Pedir por WhatsApp
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- Pizza 4 -->
-                    <div class="pizza-card">
-                        <div class="pizza-image">
-                            <img src="sublimacion.png" alt="sublimacion ">
-                        </div>
-                        <div class="pizza-content">
-                            <div class="pizza-header">
-                                <h3>Cursos de Sublimacion</h3>
-                                <span class="price">$30000</span>
-                            </div>
-                            <p>Aprende a sublimar remeras, tazas , gorras, maderas, aluminio, todo lo que quieras en un
-                                solo curso</p>
-                            <a href="https://wa.me/+541169550363?text=Hola quiero informacion sobre el curso de Sublimacion"
-                                target="_blank" class="btn-whatsapp">
-                                Pedir por WhatsApp
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- Pizza 5 -->
-                    <div class="pizza-card">
-                        <div class="pizza-image">
-                            <img src="Corte laser.png" alt="corte laser">
-                        </div>
-                        <div class="pizza-content">
-                            <div class="pizza-header">
-                                <h3>Corte Laser</h3>
-                                <span class="price">$45000</span>
-                            </div>
-                            <p>Excelente curso para empezar a diseñar en corte laser, una industria que esta en pleno
-                                auge</p>
-                            <a href="https://wa.me/+541169550363?text=Hola quiero informacion sobre el curso de Corte Laser"
-                                target="_blank" class="btn-whatsapp">
-                                Pedir por WhatsApp
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- Pizza 6 -->
-                    <div class="pizza-card">
-                        <div class="pizza-image">
-                            <img src="3d.png" alt="curso impresion">
-                        </div>
-                        <div class="pizza-content">
-                            <div class="pizza-header">
-                                <h3>curso de impresion 3D</h3>
-                                <span class="price">$50000</span>
-                            </div>
-                            <p>Excelente curso para iniciar en el mundo de la impresion 3D, asi sea por hobby o por
-                                salida laboral.
-                            </p>
-                            <a href="https://wa.me/+541169550363?text=Hola quiero informacion sobre el curso de Impresion 3D"
-                                target="_blank" class="btn-whatsapp">
-                                Pedir por WhatsApp
-                            </a>
-                        </div>
-                    </div>
+          <div class="pizza-grid">
+            <!-- Pizza 1 -->
+            <div class="pizza-card">
+              <div class="pizza-image">
+                <img
+                  src="Robotica nivel inicial.jpg"
+                  alt="Robotica nivel inicial"
+                />
+              </div>
+              <div class="pizza-content">
+                <div class="pizza-header">
+                  <h3>Robotica nivel inicial</h3>
+                  <span class="price">$35000</span>
                 </div>
+                <p>
+                  En este curso aprenderemos lo basico para que puedas
+                  introducirte en el mundo de la robotica
+                </p>
+                <a
+                  href="https://wa.me/+541169550363?text=Hola quiero informacion sobre el curso de robotica"
+                  target="_blank"
+                  class="btn-whatsapp"
+                >
+                  Pedir por WhatsApp
+                </a>
+              </div>
             </div>
-        </section>
 
-        <!-- Features Section -->
-        <section class="features-section">
-            <div class="container container-narrow">
-                <div class="features-grid">
-                    <div class="feature-item">
-                        <div class="feature-icon">
-                            <i class="fas fa-clock"></i>
-                        </div>
-                        <h3>Entrega por correo argentino</h3>
-                        <p>elegis el curso y te mandamos todo los materiales para poder realizar el curso presencial o
-                            virtual</p>
-                    </div>
-
-                    <div class="feature-item">
-                        <div class="feature-icon">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
-                        <h3>tenemos varios horarios disponibles para que puedas acomodar tus horarios de forma flexible
-                        </h3>
-                        <p>Tenemos sede en San Martin y 3 de Febrero</p>
-                    </div>
-
-                    <div class="feature-item">
-                        <div class="feature-icon">
-                            <i class="fas fa-phone"></i>
-                        </div>
-                        <h3>Cursos a un solo mensaje</h3>
-                        <p>Consultanos y te aconsejamos para que tengas la mejor experiencia educativa y profesional</p>
-                    </div>
+            <!-- Pizza 2 -->
+            <div class="pizza-card">
+              <div class="pizza-image">
+                <img src="electricidad domestica.png" alt="capacitacion" />
+              </div>
+              <div class="pizza-content">
+                <div class="pizza-header">
+                  <h3>Curso de electricidad domestica</h3>
+                  <span class="price">$80000</span>
                 </div>
+                <p>
+                  tenemos opcional virtual y presencial. Un curso ideal para
+                  aprender y tener un salida laboral rapida
+                </p>
+                <a
+                  href="https://wa.me/+541169550363?text=Hola quiero informacion sobre el curso de Electricidad domestica"
+                  target="_blank"
+                  class="btn-whatsapp"
+                >
+                  Pedir por WhatsApp
+                </a>
+              </div>
             </div>
-        </section>
 
-        <!-- Nosotros Section -->
-        <section id="nosotros" class="nosotros-section">
-            <div class="container container-narrow">
-                <h2 class="section-title">Nosotros</h2>
-
-                <div class="nosotros-grid">
-                    <div class="nosotros-content">
-                        <h3>Nuestra Historia</h3>
-                        <p>
-                            Mi nombre es Dario, tengo 35 años, soy docente de las areas de matematica, fisica , biologia
-                            , quimica, robotica y diseño, tecnico electromecanico.
-                        </p>
-                        <p>
-                            Cree Gauss por que creo que la educacion es la base de todo, pero hoy los tiempos cambiaron
-                            y la escuelas no se modernizaron, de ahi que ofrecemos horarios variados para todos los
-                            cursos, asi como tambien la posibilidad de que los mismos sean asincronicos.
-                        </p>
-                        <h3>Nuestra Filosofía</h3>
-                        <p>
-                            La creatividad, los oficios y la disruptividad son nuestra marca al fusionar eso es que
-                            surgio GAUSS
-                        </p>
-                        <p>
-                            Nuestro compromiso es ofrecerte la educacion personalizada y a tus tiempos.
-                        </p>
-                    </div>
-                    <div class="nosotros-images">
-                        <div class="image-grid">
-                            <div class="image-item">
-                                <img src="dario.jpg" alt="Nuestro equipo">
-                            </div>
-                            <div class="image-item image-offset">
-                                <img src="dario2.jpeg" alt="Nuestra pizzería">
-                            </div>
-                        </div>
-                    </div>
+            <!-- Pizza 3 -->
+            <div class="pizza-card">
+              <div class="pizza-image">
+                <img src="autocad.png" alt="cursos" />
+              </div>
+              <div class="pizza-content">
+                <div class="pizza-header">
+                  <h3>Cursos de autocad</h3>
+                  <span class="price">$40000</span>
                 </div>
+                <p>
+                  Aprende a modelar como los mejores, tenemos tres niveles para
+                  que seas de los mejores cadistas
+                </p>
+                <a
+                  href="https://wa.me/+541169550363?text=Hola quiero informacion sobre el curso de Autocad"
+                  target="_blank"
+                  class="btn-whatsapp"
+                >
+                  Pedir por WhatsApp
+                </a>
+              </div>
             </div>
-        </section>
 
-        <!-- Contacto Section -->
-        <section id="contacto" class="contacto-section">
-            <div class="container container-narrow">
-                <h2 class="section-title">Contacto</h2>
-
-                <div class="contacto-grid">
-                    <div class="contacto-form">
-                        <div class="form-container">
-                            <h3>Envíanos un mensaje</h3>
-                            <form action="https://formsubmit.co/profeponzoni187@gmail.com" method="POST">
-                                <!-- Desactiva captcha si no lo necesitas -->
-                                <input type="hidden" name="_captcha" value="false">
-
-                                <label for="name">Nombre</label>
-                                <input type="text" id="name" name="name" placeholder="Tu nombre" required>
-
-                                <label for="email">Email</label>
-                                <input type="email" id="email" name="email" placeholder="Tu email" required>
-
-                                <label for="message">Mensaje</label>
-                                <textarea id="message" name="message" rows="4" placeholder="¿En qué podemos ayudarte?"
-                                    required></textarea>
-
-                                <button type="submit" class="btn-submit">Enviar Mensaje</button>
-                            </form>
-                        </div>
-                    </div>
-
-                    <div class="contacto-info">
-                        <div class="info-container">
-                            <h3>Información de Contacto</h3>
-                            <div class="info-item">
-                                <div class="info-icon">
-                                    <i class="fas fa-map-marker-alt"></i>
-                                </div>
-                                <div>
-                                    <h4>Dirección</h4>
-                                    <p>Julio Besada 7685, martin coronado ,Buenos aires</p>
-                                </div>
-                            </div>
-                            <div class="info-item">
-                                <div class="info-icon">
-                                    <i class="fas fa-phone"></i>
-                                </div>
-                                <div>
-                                    <h4>Teléfono</h4>
-                                    <p>1169550363</p>
-                                </div>
-                            </div>
-                            <div class="info-item">
-                                <div class="info-icon">
-                                    <i class="fas fa-clock"></i>
-                                </div>
-                                <div>
-                                    <h4>Horario de Atención</h4>
-                                    <p>Lunes a Viernes: 09:00 - 20:00</p>
-                                    <p>Sábado: 09:00 - 14:00</p>
-                                    <p>Domingo: Cerrado</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <!-- Pizza 4 -->
+            <div class="pizza-card">
+              <div class="pizza-image">
+                <img src="sublimacion.png" alt="sublimacion " />
+              </div>
+              <div class="pizza-content">
+                <div class="pizza-header">
+                  <h3>Cursos de Sublimacion</h3>
+                  <span class="price">$30000</span>
                 </div>
+                <p>
+                  Aprende a sublimar remeras, tazas , gorras, maderas, aluminio,
+                  todo lo que quieras en un solo curso
+                </p>
+                <a
+                  href="https://wa.me/+541169550363?text=Hola quiero informacion sobre el curso de Sublimacion"
+                  target="_blank"
+                  class="btn-whatsapp"
+                >
+                  Pedir por WhatsApp
+                </a>
+              </div>
             </div>
-        </section>
+
+            <!-- Pizza 5 -->
+            <div class="pizza-card">
+              <div class="pizza-image">
+                <img src="Corte laser.png" alt="corte laser" />
+              </div>
+              <div class="pizza-content">
+                <div class="pizza-header">
+                  <h3>Corte Laser</h3>
+                  <span class="price">$45000</span>
+                </div>
+                <p>
+                  Excelente curso para empezar a diseñar en corte laser, una
+                  industria que esta en pleno auge
+                </p>
+                <a
+                  href="https://wa.me/+541169550363?text=Hola quiero informacion sobre el curso de Corte Laser"
+                  target="_blank"
+                  class="btn-whatsapp"
+                >
+                  Pedir por WhatsApp
+                </a>
+              </div>
+            </div>
+
+            <!-- Pizza 6 -->
+            <div class="pizza-card">
+              <div class="pizza-image">
+                <img src="3d.png" alt="curso impresion" />
+              </div>
+              <div class="pizza-content">
+                <div class="pizza-header">
+                  <h3>curso de impresion 3D</h3>
+                  <span class="price">$50000</span>
+                </div>
+                <p>
+                  Excelente curso para iniciar en el mundo de la impresion 3D,
+                  asi sea por hobby o por salida laboral.
+                </p>
+                <a
+                  href="https://wa.me/+541169550363?text=Hola quiero informacion sobre el curso de Impresion 3D"
+                  target="_blank"
+                  class="btn-whatsapp"
+                >
+                  Pedir por WhatsApp
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Features Section -->
+      <section class="features-section">
+        <div class="container container-narrow">
+          <div class="features-grid">
+            <div class="feature-item">
+              <div class="feature-icon">
+                <i class="fas fa-clock"></i>
+              </div>
+              <h3>Entrega por correo argentino</h3>
+              <p>
+                elegis el curso y te mandamos todo los materiales para poder
+                realizar el curso presencial o virtual
+              </p>
+            </div>
+
+            <div class="feature-item">
+              <div class="feature-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <h3>
+                tenemos varios horarios disponibles para que puedas acomodar tus
+                horarios de forma flexible
+              </h3>
+              <p>Tenemos sede en San Martin y 3 de Febrero</p>
+            </div>
+
+            <div class="feature-item">
+              <div class="feature-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <h3>Cursos a un solo mensaje</h3>
+              <p>
+                Consultanos y te aconsejamos para que tengas la mejor
+                experiencia educativa y profesional
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Nosotros Section -->
+      <section id="nosotros" class="nosotros-section">
+        <div class="container container-narrow">
+          <h2 class="section-title">Nosotros</h2>
+
+          <div class="nosotros-grid">
+            <div class="nosotros-content">
+              <h3>Nuestra Historia</h3>
+              <p>
+                Mi nombre es Dario, tengo 35 años, soy docente de las areas de
+                matematica, fisica , biologia , quimica, robotica y diseño,
+                tecnico electromecanico.
+              </p>
+              <p>
+                Cree Gauss por que creo que la educacion es la base de todo,
+                pero hoy los tiempos cambiaron y la escuelas no se modernizaron,
+                de ahi que ofrecemos horarios variados para todos los cursos,
+                asi como tambien la posibilidad de que los mismos sean
+                asincronicos.
+              </p>
+              <h3>Nuestra Filosofía</h3>
+              <p>
+                La creatividad, los oficios y la disruptividad son nuestra marca
+                al fusionar eso es que surgio GAUSS
+              </p>
+              <p>
+                Nuestro compromiso es ofrecerte la educacion personalizada y a
+                tus tiempos.
+              </p>
+            </div>
+            <div class="nosotros-images">
+              <div class="image-grid">
+                <div class="image-item">
+                  <img src="dario.jpg" alt="Nuestro equipo" />
+                </div>
+                <div class="image-item image-offset">
+                  <img src="dario2.jpeg" alt="Nuestra pizzería" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contacto Section -->
+      <section id="contacto" class="contacto-section">
+        <div class="container container-narrow">
+          <h2 class="section-title">Contacto</h2>
+
+          <div class="contacto-grid">
+            <div class="contacto-form">
+              <div class="form-container">
+                <h3>Envíanos un mensaje</h3>
+                <form
+                  action="https://formsubmit.co/profeponzoni187@gmail.com"
+                  method="POST"
+                >
+                  <!-- Desactiva captcha si no lo necesitas -->
+                  <input type="hidden" name="_captcha" value="false" />
+
+                  <label for="name">Nombre</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Tu nombre"
+                    required
+                  />
+
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Tu email"
+                    required
+                  />
+
+                  <label for="message">Mensaje</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="4"
+                    placeholder="¿En qué podemos ayudarte?"
+                    required
+                  ></textarea>
+
+                  <button type="submit" class="btn-submit">
+                    Enviar Mensaje
+                  </button>
+                </form>
+              </div>
+            </div>
+
+            <div class="contacto-info">
+              <div class="info-container">
+                <h3>Información de Contacto</h3>
+                <div class="info-item">
+                  <div class="info-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                  <div>
+                    <h4>Dirección</h4>
+                    <p>Julio Besada 7685, martin coronado ,Buenos aires</p>
+                  </div>
+                </div>
+                <div class="info-item">
+                  <div class="info-icon">
+                    <i class="fas fa-phone"></i>
+                  </div>
+                  <div>
+                    <h4>Teléfono</h4>
+                    <p>1169550363</p>
+                  </div>
+                </div>
+                <div class="info-item">
+                  <div class="info-icon">
+                    <i class="fas fa-clock"></i>
+                  </div>
+                  <div>
+                    <h4>Horario de Atención</h4>
+                    <p>Lunes a Viernes: 09:00 - 20:00</p>
+                    <p>Sábado: 09:00 - 14:00</p>
+                    <p>Domingo: Cerrado</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer>
-        <div class="container container-narrow">
-            <div class="footer-grid">
-                <div class="footer-about">
-                    <h3>Eduacion Integral</h3>
-                    <p>La mejor forma de formarte para el futuro</p>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                    </div>
-                </div>
-
-                <div class="footer-hours">
-                    <h3>Horarios</h3>
-                    <ul>
-                        <li>Lunes a Viernes: 09:00 - 20:00</li>
-                        <li>Sábado: 11:00 - 14:00</li>
-                        <li>Domingo: Cerrado</li>
-                    </ul>
-                </div>
-
-                <div class="footer-contact">
-                    <h3>Contacto</h3>
-                    <ul>
-                        <li>
-                            <i class="fas fa-map-marker-alt"></i>
-                            <span>Julio Besada 7685</span>
-                        </li>
-                        <li>
-                            <i class="fas fa-phone"></i>
-                            <span>1169550363</span>
-                        </li>
-                        <li>
-                            <a href="https://wa.me/1234567890" target="_blank">
-                                <i class="fab fa-whatsapp"></i>
-                                <span>Escríbenos por WhatsApp</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+      <div class="container container-narrow">
+        <div class="footer-grid">
+          <div class="footer-about">
+            <h3>Eduacion Integral</h3>
+            <p>La mejor forma de formarte para el futuro</p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
             </div>
+          </div>
 
-            <div class="footer-bottom">
-                <p>&copy;
-                    <script>document.write(new Date().getFullYear())</script> GAUSS centro integral de estudios. Todos
-                    los derechos
-                    reservados.
-                </p>
-            </div>
+          <div class="footer-hours">
+            <h3>Horarios</h3>
+            <ul>
+              <li>Lunes a Viernes: 09:00 - 20:00</li>
+              <li>Sábado: 11:00 - 14:00</li>
+              <li>Domingo: Cerrado</li>
+            </ul>
+          </div>
+
+          <div class="footer-contact">
+            <h3>Contacto</h3>
+            <ul>
+              <li>
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Julio Besada 7685</span>
+              </li>
+              <li>
+                <i class="fas fa-phone"></i>
+                <span>1169550363</span>
+              </li>
+              <li>
+                <a href="https://wa.me/1234567890" target="_blank">
+                  <i class="fab fa-whatsapp"></i>
+                  <span>Escríbenos por WhatsApp</span>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy;
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            GAUSS centro integral de estudios. Todos los derechos reservados.
+          </p>
+        </div>
+      </div>
     </footer>
 
     <!-- Bootstrap JS Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-
+  </body>
 </html>
